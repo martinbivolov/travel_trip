@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel away</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+
+    <div class="navigation">
+      <ul class="nav1">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Your posts</a>
+        </li>
+        <li>
+          <a href="#">Photography</a>
+        </li>
+      </ul>
+      <ul class="nav2">
+        <li>
+          <a href="#">Sign-in</a>
+        </li>
+        <li>
+          <a href="#">Sign-up</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- End of Navigation -->
+
+    <!-- Search -->
+
+    <div class="search">
+      <h2>Read people's stories</h2>
+      <div class="mainContainer">
+        <form action="" id="searchForm">
+          <fieldset>
+            <div class="group-field">
+              <label for="from" class="bold-type">Where are we going:</label>
+              <input
+                class="from-place"
+                type="text"
+                name="from"
+                maxlength="100"
+                placeholder="Any city"
+              />
+            </div>
+
+            <div class="group-field">
+              <label for="depart" class="bold-type">From:</label>
+              <input placeholder="Pick a date" type="date" name="depart" />
+            </div>
+            <div class="group-field">
+              <label for="return" class="bold-type">To:</label>
+              <input placeholder="Pick a date" type="date" name="return" />
+            </div>
+          </fieldset>
+          <input class="search-btn" type="submit" value="Search Reviews" />
+        </form>
+      </div>
+    </div>
+
+    <!-- End of the Search -->
+
+    <!-- Button + Info -->
+
+    <div class="infob">
+      <a href="reviews.html">
+        <div class="button">
+          <h1>
+            Explore <br />
+            destinations
+          </h1>
+          <img src="img/arrow.png" alt="Arrow" />
+        </div>
+      </a>
+
+      <!-- .................................................... -->
+
+      <div class="info entry-container">
+        <h1>Share your travel experiences</h1>
+        <form action="/create-post" method="POST">
+          <textarea name="blogpost" rows="10" cols="14"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- End of Button + Info -->
+    <script src="scrip.js"></script>
+  </body>
+</html>

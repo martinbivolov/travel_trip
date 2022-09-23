@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+}
+html {
+  background: url(IMG/airport.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* body {
+    background-image: url("IMG/bg.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size : 100% auto;
+   } */
+
+.navigation {
+  display: flex;
+  width: 80vw;
+  padding: 10px 0 10px 0;
+  border-bottom: 2px solid;
+  border-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navigation .nav1,
+.nav2 {
+  display: block;
+  justify-content: space-between;
+}
+.navigation .nav2 {
+  justify-content: flex-end;
+  margin-left: 5vw;
+}
+
+.nav1 > li {
+  display: inline-block;
+  position: relative;
+  margin-left: 5vw;
+}
+.nav2 > li {
+  display: inline-block;
+  position: relative;
+  margin-left: 5vw;
+  text-align: right;
+}
+a {
+  color: #ffff;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff9c09;
+}
+
+.search {
+  height: 150px;
+  width: 80vw;
+  background-color: rgba(111, 114, 116, 0.95);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 1em;
+  opacity: 98%;
+}
+fieldset {
+  border: none;
+}
+
+fieldset div {
+  display: inline-block;
+  padding: 10px 0px;
+}
+
+.group-field {
+  width: 210px;
+  height: auto;
+}
+
+.group-field label {
+  display: block;
+  padding: 5px 0px;
+}
+
+.search-btn {
+  float: right;
+  padding: 10px 22px;
+  border-radius: 6px;
+  outline: none;
+  font-weight: bold;
+  background: #ff7600;
+  color: white;
+  border: none;
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  margin: 0 auto;
+  margin-top: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+input[type="date"] {
+  height: 36px;
+  border: 1px solid #dcdcdc;
+  outline: none;
+}
+
+.infob {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  height: auto;
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: rgba(111, 114, 116, 0.8);
+  width: 20vw;
+  height: 50vh;
+
+  border-radius: 20px;
+}
+.button h1 {
+  padding: 3em 0 3em 1em;
+  color: #ff7600;
+}
+.button img {
+  height: 100px;
+  width: auto;
+  padding-left: 1em;
+}
+
+.info {
+  width: 50vw;
+  height: 50vh;
+  border-radius: 20px;
+  margin-top: 1vh;
+}
+
+.info > h1 {
+  color: #ff7600;
+}
+
+.info > p {
+  color: #fff;
+}
